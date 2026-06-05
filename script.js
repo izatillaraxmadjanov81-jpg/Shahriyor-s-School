@@ -2595,15 +2595,15 @@ function generateExamQuestions() {
 
     const readingPart =
     shuffleArray(readingQuestions)
-    .slice(0,20);
+    .slice(0,30);
 
     const grammarPart =
     shuffleArray(grammarQuestions)
-    .slice(0,20);
+    .slice(0,30);
 
     const vocabularyPart =
     shuffleArray(vocabularyQuestions)
-    .slice(0,10);
+    .slice(0,30);
 
   return shuffleArray([
     ...readingPart,
@@ -2891,34 +2891,72 @@ Math.round(
 
 let level = "";
 
-if(percentage <= 20){
+if(percentage < 40){
 
 level = "A1";
 
 }
-else if(percentage <= 40){
+else if(percentage < 55){
 
 level = "A2";
 
 }
-else if(percentage <= 60){
+else if(percentage < 70){
 
 level = "B1";
 
 }
-else if(percentage <= 80){
+else if(percentage < 85){
 
 level = "B2";
 
 }
-else{
+else if(percentage < 95){
 
 level = "C1";
+
+}
+else{
+
+level = "C2";
 
 }
 
 certificateLevel = level;
 certificateScore = percentage;
+
+document
+.getElementById(
+"certificate-section"
+)
+.classList.remove(
+"hidden"
+);
+
+localStorage.setItem(
+"certificateLevel",
+level
+);
+
+localStorage.setItem(
+"certificateScore",
+percentage
+);
+
+localStorage.setItem(
+"certificateCorrect",
+correctAnswers
+);
+
+localStorage.setItem(
+"certificateWrong",
+wrongAnswers
+);
+
+localStorage.setItem(
+"certificateTotal",
+totalQuestions
+);
 
 alert(
 
@@ -2933,5 +2971,12 @@ alert(
 "\n\nLevel: " + level
 
 );
+
+}
+
+function generateCertificate(){
+
+window.location.href =
+"certificate.html";
 
 }

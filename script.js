@@ -938,786 +938,90 @@ const readingQuestions = [
 {
 type:"multiple",
 category:"reading",
-question:"Where does Thomas live?",
-options:["The USA","Canada","England"],
-correct:"Canada"
-},
 
-{
-type:"multiple",
-category:"reading",
-question:"How many siblings does Thomas have?",
-options:["Three","Four","Five"],
-correct:"Four"
-},
+passage:`
+Hi! My name is Anna.
+I am 25 years old and I live in London, UK.
+I am a student at a university.
+I study English every day.
 
-{
-type:"multiple",
-category:"reading",
-question:"What does his dad do?",
+I have a good friend named Carlos.
+He is from Spain.
+Carlos is 27 years old.
+He is a teacher.
+
+We like to drink coffee and talk in the afternoon.
+`,
+
+question:"How old is Anna?",
+
 options:[
-"He is a mechanic",
-"He works at the bank",
-"He is a doctor"
+"20",
+"25",
+"27"
 ],
-correct:"He is a mechanic"
+
+correct:"25"
 },
 
 {
 type:"multiple",
 category:"reading",
-question:"Who is the oldest child?",
+
+passage:`
+Hi! My name is Anna.
+I am 25 years old and I live in London, UK.
+I am a student at a university.
+I study English every day.
+
+I have a good friend named Carlos.
+He is from Spain.
+Carlos is 27 years old.
+He is a teacher.
+
+We like to drink coffee and talk in the afternoon.
+`,
+
+question:"Where does Anna live?",
+
 options:[
-"Thomas",
-"Teresa",
-"His brother"
+"Spain",
+"USA",
+"UK"
 ],
-correct:"Thomas"
+
+correct:"UK"
 },
 
 {
 type:"multiple",
 category:"reading",
-question:"What does Teresa play?",
+
+passage:`
+Hi! My name is Anna.
+I am 25 years old and I live in London, UK.
+I am a student at a university.
+I study English every day.
+
+I have a good friend named Carlos.
+He is from Spain.
+Carlos is 27 years old.
+He is a teacher.
+
+We like to drink coffee and talk in the afternoon.
+`,
+
+question:"What is Anna's job?",
+
 options:[
-"Volleyball",
-"The guitar",
-"Video games"
+"She is a teacher",
+"She is a student",
+"She is a doctor"
 ],
-correct:"The guitar"
-},
 
-{
-type:"truefalse",
-category:"reading",
-question:"Thomas has a small family.",
-options:["True","False"],
-correct:"False"
-},
-
-{
-type:"truefalse",
-category:"reading",
-question:"His mom works at a bank.",
-options:["True","False"],
-correct:"True"
-},
-
-{
-type:"truefalse",
-category:"reading",
-question:"Thomas is the youngest child in his family.",
-options:["True","False"],
-correct:"False"
-},
-
-{
-type:"truefalse",
-category:"reading",
-question:"Teresa goes to school.",
-options:["True","False"],
-correct:"True"
-},
-
-{
-type:"truefalse",
-category:"reading",
-question:"Thomas' dad works on cars.",
-options:["True","False"],
-correct:"True"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"What is the name of the speaker?",
-options:[
-"Thomas",
-"Tom",
-"Leo"
-],
-correct:"Thomas"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"Where does his mom work?",
-options:[
-"At the bank",
-"At the hospital",
-"At school"
-],
-correct:"At the bank"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"What instrument does Teresa play?",
-options:[
-"The guitar",
-"The piano",
-"The violin"
-],
-correct:"The guitar"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"How old is Teresa?",
-options:[
-"Fourteen",
-"Sixteen",
-"Eighteen"
-],
-correct:"Sixteen"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"Is Canada a city or a country?",
-options:[
-"A city",
-"A country",
-"A continent"
-],
-correct:"A country"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"Thomas is studying ____ in university.",
-options:[
-"math",
-"medicine",
-"music"
-],
-correct:"medicine"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"Thomas lives in a city ____ Canada.",
-options:[
-"in",
-"on",
-"at"
-],
-correct:"in"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"His dad is an ____ mechanic.",
-options:[
-"auto",
-"bus",
-"plane"
-],
-correct:"auto"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"Thomas is ____ years old.",
-options:[
-"twenty-one",
-"twenty-two",
-"twenty-three"
-],
-correct:"twenty-two"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"Teresa is ____ high school.",
-options:[
-"at",
-"in",
-"on"
-],
-correct:"in"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"What day is it in the story?",
-options:["Monday","Sunday","Friday"],
-correct:"Sunday"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"What time does Tom get up?",
-options:["8 o'clock","9 o'clock","10 o'clock"],
-correct:"10 o'clock"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"What does he have for breakfast?",
-options:[
-"Eggs and coffee",
-"Cereal and milk",
-"Fruit and tea"
-],
-correct:"Eggs and coffee"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"Where does he play soccer?",
-options:[
-"At school",
-"At the park",
-"In the garden"
-],
-correct:"At the park"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"What time does he go to bed?",
-options:[
-"10 o'clock",
-"11 o'clock",
-"12 o'clock"
-],
-correct:"11 o'clock"
-},
-
-{
-type:"truefalse",
-category:"reading",
-question:"Tom gets up early on Sunday.",
-options:["True","False"],
-correct:"False"
-},
-
-{
-type:"truefalse",
-category:"reading",
-question:"He drinks coffee in the morning.",
-options:["True","False"],
-correct:"True"
-},
-
-{
-type:"truefalse",
-category:"reading",
-question:"Tom plays tennis with his friends.",
-options:["True","False"],
-correct:"False"
-},
-
-{
-type:"truefalse",
-category:"reading",
-question:"He watches a movie in the evening.",
-options:["True","False"],
-correct:"False"
-},
-
-{
-type:"truefalse",
-category:"reading",
-question:"Tom goes to bed at 11 o'clock.",
-options:["True","False"],
-correct:"True"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"What is the boy's name?",
-options:["Tom","Leo","Thomas"],
-correct:"Tom"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"What does Tom do in the afternoon?",
-options:[
-"He plays soccer",
-"He watches TV",
-"He sleeps"
-],
-correct:"He plays soccer"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"What does Tom watch in the evening?",
-options:[
-"TV",
-"A football match",
-"A movie"
-],
-correct:"TV"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"Does Tom eat breakfast?",
-options:["Yes","No","Sometimes"],
-correct:"Yes"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"What drink does he have with breakfast?",
-options:[
-"Tea",
-"Coffee",
-"Milk"
-],
-correct:"Coffee"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"Tom gets ____ at 10 o'clock.",
-options:["up","in","on"],
-correct:"up"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"He plays soccer ____ friends.",
-options:["with","to","of"],
-correct:"with"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"Tom has a ____ breakfast.",
-options:["small","big","short"],
-correct:"big"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"He watches TV in the ____.",
-options:[
-"morning",
-"afternoon",
-"evening"
-],
-correct:"evening"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"Tom goes to bed ____ 11 o'clock.",
-options:["on","in","at"],
-correct:"at"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"Who goes to the restaurant?",
-options:[
-"Anna and her friends",
-"Anna and her family",
-"Anna and her sister"
-],
-correct:"Anna and her family"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"What food does Anna's mom want?",
-options:["Pizza","Salad","Soup"],
-correct:"Salad"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"What does Anna's dad like?",
-options:["Chicken","Pasta","Fish"],
-correct:"Chicken"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"What does Anna want to eat?",
-options:["Cheese pizza","Salad","Burger"],
-correct:"Cheese pizza"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"What does Anna drink?",
-options:["Milk","Water","Juice"],
-correct:"Water"
-},
-
-{
-type:"truefalse",
-category:"reading",
-question:"Anna goes to the restaurant alone.",
-options:["True","False"],
-correct:"False"
-},
-
-{
-type:"truefalse",
-category:"reading",
-question:"The restaurant has bad food.",
-options:["True","False"],
-correct:"False"
-},
-
-{
-type:"truefalse",
-category:"reading",
-question:"The mom wants a salad.",
-options:["True","False"],
-correct:"True"
-},
-
-{
-type:"truefalse",
-category:"reading",
-question:"The dad likes chicken.",
-options:["True","False"],
-correct:"True"
-},
-
-{
-type:"truefalse",
-category:"reading",
-question:"Anna drinks juice.",
-options:["True","False"],
-correct:"False"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"What is the girl's name?",
-options:["Anna","Maria","Lucy"],
-correct:"Anna"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"Where are Anna and her family?",
-options:[
-"At a restaurant",
-"At home",
-"At school"
-],
-correct:"At a restaurant"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"Does the mom want chicken?",
-options:["Yes","No","Sometimes"],
-correct:"No"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"Who wants the salad?",
-options:[
-"The mom",
-"The dad",
-"Anna"
-],
-correct:"The mom"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"What does Anna want to drink?",
-options:[
-"Water",
-"Milk",
-"Juice"
-],
-correct:"Water"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"Today I ____ to a restaurant.",
-options:["go","goes","going"],
-correct:"go"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"My dad ____ chicken.",
-options:["like","likes","liking"],
-correct:"likes"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"I want a big cheese ____.",
-options:["pizza","salad","fish"],
-correct:"pizza"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"We are very ____.",
-options:["sad","tired","happy"],
-correct:"happy"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"The restaurant has delicious ____.",
-options:["food","car","book"],
-correct:"food"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"What is the boy's name?",
-options:["Leo","Tom","Ben"],
-correct:"Leo"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"Where does Leo live?",
-options:[
-"An apartment",
-"A house",
-"A hotel"
-],
-correct:"A house"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"How many rooms does his house have?",
-options:["Two","Three","Four"],
-correct:"Three"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"Where is the bedroom?",
-options:[
-"Downstairs",
-"Upstairs",
-"In the kitchen"
-],
-correct:"Upstairs"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"How does Leo feel about his house?",
-options:[
-"He likes it",
-"He hates it",
-"He is sad"
-],
-correct:"He likes it"
-},
-
-{
-type:"truefalse",
-category:"reading",
-question:"Leo lives in an apartment.",
-options:["True","False"],
-correct:"False"
-},
-
-{
-type:"truefalse",
-category:"reading",
-question:"The living room is small.",
-options:["True","False"],
-correct:"False"
-},
-
-{
-type:"truefalse",
-category:"reading",
-question:"The kitchen is next to the living room.",
-options:["True","False"],
-correct:"True"
-},
-
-{
-type:"truefalse",
-category:"reading",
-question:"Leo's bedroom is downstairs.",
-options:["True","False"],
-correct:"False"
-},
-
-{
-type:"truefalse",
-category:"reading",
-question:"Leo does not like his house.",
-options:["True","False"],
-correct:"False"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"What does Leo do in the living room?",
-options:[
-"He watches TV",
-"He cooks",
-"He sleeps"
-],
-correct:"He watches TV"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"Which room is next to the living room?",
-options:[
-"The kitchen",
-"The bedroom",
-"The garage"
-],
-correct:"The kitchen"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"How does Leo describe his bedroom?",
-options:[
-"Quiet",
-"Noisy",
-"Small"
-],
-correct:"Quiet"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"Does Leo live in a house or an apartment?",
-options:[
-"A house",
-"An apartment",
-"A hotel"
-],
-correct:"A house"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"What is the speaker's name?",
-options:[
-"Leo",
-"Tom",
-"Thomas"
-],
-correct:"Leo"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"Hi, I ____ Leo.",
-options:["am","is","are"],
-correct:"am"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"The living room is ____.",
-options:[
-"small",
-"big",
-"quiet"
-],
-correct:"big"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"The ____ is next to the living room.",
-options:[
-"bedroom",
-"kitchen",
-"car"
-],
-correct:"kitchen"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"My bedroom is ____.",
-options:[
-"upstairs",
-"on",
-"at"
-],
-correct:"upstairs"
-},
-
-{
-type:"multiple",
-category:"reading",
-question:"I ____ my house!",
-options:[
-"live",
-"like",
-"play"
-],
-correct:"like"
+correct:"She is a student"
 }
+
 ];
 
 const grammarQuestions = [{

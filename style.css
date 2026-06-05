@@ -1239,3 +1239,14 @@ display:block !important;
 border:2px solid red;
 padding:20px;
 }
+
+#reading-passage{
+background:#102944;
+padding:20px;
+border-radius:12px;
+margin-bottom:20px;
+line-height:1.8;
+font-size:18px;
+color:white;
+white-space:pre-line;
+}

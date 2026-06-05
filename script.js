@@ -2649,6 +2649,29 @@ document
 .getElementById("test-result")
 .innerHTML = "";
 
+const passageBox =
+document.getElementById(
+"reading-passage"
+);
+
+if(q.passage){
+
+passageBox.innerHTML = q.passage;
+
+passageBox.classList.remove(
+"hidden"
+);
+
+}else{
+
+passageBox.innerHTML = "";
+
+passageBox.classList.add(
+"hidden"
+);
+
+}
+
 document
 .getElementById("test-question")
 .innerHTML =

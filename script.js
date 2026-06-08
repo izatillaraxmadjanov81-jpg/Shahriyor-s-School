@@ -2017,7 +2017,7 @@ options:[
 "He cleans the animals cage",  
 ],
 
-correct:"He checks if the animals are3 healthy"
+correct:"He checks if the animals are healthy"
 },
 
 {type:"multiple",
@@ -2095,7 +2095,7 @@ I would never want to do anything else.
 question:"What did David do for the sick baby monkey last year?",
 
 options:[
-"He gave it milk with bottle",
+"He gave it milk with a bottle",
 "He played with it all day",
 "He gave it some fruit",
 "He moved it to a different zoo",  
@@ -5222,287 +5222,285 @@ correct:"The diversity of human languages reflects diverse cognitive realities, 
 const grammarQuestions = [{
 type:"typing",
 category:"grammar",
-question:"I ___ a student.",
+question:"Maria ___ from Spain. (is / am / are)",
+correct:["is"]
+},
+
+{
+type:"typing",
+category:"grammar",
+question:"Where ___ you from? (is / am / are)",
+correct:["are"]
+},
+
+{
+type:"typing",
+category:"grammar",
+question:"My friends and I ___ students. (is / am / are)",
+correct:["are"]
+},
+
+{
+type:"typing",
+category:"grammar",
+question:"I ___ hungry. Let's eat! (is / am / are)",
 correct:["am"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"She ___ my best friend.",
-correct:["is"]
+question:"He ___ tennis every weekend. (play / plays / playing)",
+correct:["plays"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"We ___ from Spain.",
-correct:["are"]
+question:"___ she like coffee? (Do / Does / Is)",
+correct:["Does"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"___ you ready?",
-correct:["are"]
+question:"We ___ in a big house. (lives / live / living)",
+correct:["live"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"It ___ a beautiful day.",
-correct:["is"]
+question:"They ___ TV in the evening (watchs / watch / watching)",
+correct:["watch"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"They ___ not at home.",
-correct:["are"]
+question:"Where ___ you work? (do / does / are).",
+correct:["do"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"He ___ a doctor.",
-correct:["is"]
-},
-
-{
-type:"typing",
-category:"grammar",
-question:"___ she your sister?",
-correct:["is"]
-},
-
-{
-type:"typing",
-category:"grammar",
-question:"You ___ very tall.",
-correct:["are"]
-},
-
-{
-type:"typing",
-category:"grammar",
-question:"I ___ hungry.",
-correct:["am"]
-},
-
-{
-type:"typing",
-category:"grammar",
-question:"___ am reading a book.",
-correct:["i"]
-},
-
-{
-type:"typing",
-category:"grammar",
-question:"This is ___ car.",
+question:"This is my brother ___ name is John. (His / Her / He)",
 correct:["his"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"___ are playing football.",
+question:"___ am a teacher. (Me / I / My)",
+correct:["i"]
+},
+
+{
+type:"typing",
+category:"grammar",
+question:"Give the pencil to ___. (he / him / his)",
+correct:["him"]
+},
+
+{
+type:"typing",
+category:"grammar",
+question:"___ this your book? (Is / Are / Do)",
+correct:["is"]
+},
+
+{
+type:"typing",
+category:"grammar",
+question:"These are ___ shoes. (they / them / their)",
+correct:["their"]
+},
+
+{
+type:"typing",
+category:"grammar",
+question:"___ are my best friends. (She / They / It)",
 correct:["they"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"Is this ___ dog?",
-correct:["your"]
+question:"___ is your birthday? (What / When / Where)",
+correct:["when"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"___ name is Maria.",
-correct:["her"]
+question:"___ is that man? (Who / What / Where)",
+correct:["who"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"We love ___ new house.",
-correct:["our"]
+question:"___ old are you? (How / What / Who)",
+correct:["how"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"___ is a teacher.",
-correct:["he"]
+question:"___ is my bag? (Where / Who / When)",
+correct:["where"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"Look at ___!",
-correct:["them"]
+question:"___ is your favorite color? (What / When / Why)",
+correct:["what"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"___ keys are on the table.",
-correct:["my"]
+question:"Look! It ___ right now. (rain / is raining / rains)",
+correct:["is raining"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"Do ___ like coffee?",
-correct:["you"]
+question:"She ________ to the gym every Saturday. (go / goes / is going)",
+correct:["goes"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"I ___ pizza.",
-correct:["like"]
-},
-
-{
-type:"typing",
-category:"grammar",
-question:"She ___ in a bank.",
-correct:["works"]
-},
-
-{
-type:"typing",
-category:"grammar",
-question:"They ___ in London.",
-correct:[
-"do not live",
-"don't live"
-]
-},
-
-{
-type:"typing",
-category:"grammar",
-question:"___ you speak English?",
+question:"What time ________ you usually wake up? (do / does / are)",
 correct:["do"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"He ___ a big dog.",
+question:"We ________ a great movie last night. (see / saw / seen)",
+correct:["saw"]
+},
+
+{
+type:"typing",
+category:"grammar",
+question:"___ she go to the party yesterday? (Did / Do / Was)",
+correct:["did"]
+},
+
+{
+type:"typing",
+category:"grammar",
+question:"They ___ at home; they were at the park. (weren't / didn't / wasn't)",
+correct:["were not",
+  "weren't",
+]
+},
+
+{
+type:"typing",
+category:"grammar",
+question:"I ___ never eaten sushi. (have / has / did)",
+correct:["have"]
+},
+
+{
+type:"typing",
+category:"grammar",
+question:"Have you ___ been to London? (ever / never / just)",
+correct:["ever"]
+},
+
+{
+type:"typing",
+category:"grammar",
+question:"She ___ just finished her lunch. (have / has / is)",
 correct:["has"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"We ___ to school every day.",
-correct:["go"]
+question:"I think it ___ snow tomorrow. (will / going to / shall)",
+correct:["will"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"___ she like ice cream?",
-correct:["does"]
+question:" We ___ to visit our grandparents this weekend. (are going / go / will go)",
+correct:["are going"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"The sun ___ in the east.",
-correct:["rises"]
+question:"This book is ___ than that one. (interesting / more interesting / most interesting)",
+correct:["more interesting"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"I ___ getting up early.",
-correct:[
-"do not like",
-"don't like"
+question:"He is the ___ student in the class. (tall )/ taller / tallest)",
+correct:["tallest"]
+},
+
+{
+type:"typing",
+category:"grammar",
+question:"You ___ drive too fast in the city. (must / mustn't / don't have to)",
+correct:["must not",
+  "mustn't",
 ]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"___ they play tennis on Sundays?",
-correct:["do"]
+question:"___ I help you with your bags? (Can / Do / Are)",
+correct:["can"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"I want ___ apple.",
-correct:["an"]
+question:" This jacket is ___. It belongs to me. (my / mine / me",
+correct:["mine"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"She has ___ dog and ___ cat.",
-correct:["a a"]
+question:"I gave ___ the book yesterday. (he / him / his)",
+correct:["him"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"___ book on the table is mine.",
-correct:["the"]
+question:"There are ___ apples in the basket. (some / any / a)",
+correct:["some"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"He is ___ English teacher.",
-correct:["an"]
+question:"We don't have ___ milk left. (some / any / a)",
+correct:["any"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"We live in ___ small apartment.",
-correct:["a"]
-},
-
-{
-type:"typing",
-category:"grammar",
-question:"I saw ___ amazing movie last night.",
-correct:["an"]
-},
-
-{
-type:"typing",
-category:"grammar",
-question:"___ sky is blue.",
-correct:["the"]
-},
-
-{
-type:"typing",
-category:"grammar",
-question:"Do you have ___ pen?",
-correct:["a"]
-},
-
-{
-type:"typing",
-category:"grammar",
-question:"This is ___ best restaurant in town.",
-correct:["the"]
-},
-
-{
-type:"typing",
-category:"grammar",
-question:"I want to buy ___ car.",
-correct:["a"]
+question:"The meeting is ___ Monday morning. (in / on / at)",
+correct:["on"]
 },
 
 {

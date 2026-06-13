@@ -931,7 +931,7 @@ answersDiv.appendChild(btn);
 
 }
 
-// ===== BEGINNER QUESTION DATABASE =====
+// ===== CERTIFICATE QUESTION DATABASE =====
 
 const readingQuestions = [
 
@@ -5506,78 +5506,84 @@ correct:["on"]
 {
 type:"typing",
 category:"grammar",
-question:"I have two ___.",
-correct:["cats"]
+question:"I __________ (not finish) my project yet.",
+correct:["haven't finished",
+  "have not finished",
+]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"She bought three ___.",
-correct:["apples"]
+question:"If the weather is nice tomorrow, we __________ (go) to the park.",
+correct:["will go"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"There are many ___ in the street.",
-correct:["people"]
+question:"She is the woman __________ dog won the competition",
+correct:["whose"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"Look at those ___.",
-correct:["children"]
+question:"Have you __________ been to Japan?",
+correct:["ever"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"I need some ___.",
-correct:["water"]
+question:"You __________ (not have to) wear a uniform to work at this company. It's casual",
+correct:["don't have to",
+  "do not have to",
+]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"Put the ___ on the table.",
-correct:["glasses"]
+question:"This book was written __________ a famous author.",
+correct:["by"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"Those ___ are very big.",
-correct:["boxes"]
+question:"I used __________ (live) in London when I was younger",
+correct:["to live"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"I have two ___.",
-correct:["brothers"]
+question:"If I were you, I __________ (buy) that car.",
+correct:["would buy"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"The ___ are running.",
-correct:["dogs"]
+question:"This time tomorrow, we __________ (relax) on the beach",
+correct:["will be relaxing"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"He broke his ___.",
-correct:["teeth"]
+question:"She is the girl __________ helped me with my luggage.",
+correct:["who",
+  "that",
+]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"The keys are ___ the table.",
-correct:["on"]
+question:"He was very tired, __________ he went to bed early.",
+correct:["so"]
 },
 
 {
@@ -5590,198 +5596,959 @@ correct:["in"]
 {
 type:"typing",
 category:"grammar",
-question:"She is ___ home.",
-correct:["at"]
+question:"They __________ (live) in this house for ten years",
+correct:["have lived"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"The cat is ___ the box.",
-correct:["in"]
+question:"She speaks English __________ (fluent)",
+correct:["fluently"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"The picture is ___ the wall.",
-correct:["on"]
+question:"You __________ (should) eat more vegetables if you want to be healthy.",
+correct:["should"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"We meet ___ the cinema.",
-correct:["at"]
+question:"The movie was boring, so we __________ (bore).",
+correct:["were bored"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"The dog is sleeping ___ the bed.",
-correct:["under"]
+question:"She __________ (not see) him since last year.",
+correct:["hasn't seen",
+  "has not seen",
+]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"There is a park ___ our house.",
-correct:["near"]
+question:"He is __________ (tall) person in his family.",
+correct:["the tallest"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"He works ___ a hospital.",
-correct:["in","at"]
+question:"If I __________ (know) his number, I would call him.",
+correct:["knew"]
 },
 
 {
 type:"typing",
 category:"grammar",
-question:"The store is ___ the school and the bank.",
-correct:["between"]
+question:"The car __________ (wash) yesterday.",
+correct:["was washed"]
 },
 
 {
-type:"typing",
+type:"multiple",
 category:"grammar",
-question:"___ is your name?",
-correct:["what"]
+question:"By the time we reach the cinema, the film ________",
+
+options:[
+"will start",
+"will have started",
+"starts",
+"started",
+],
+
+correct:["will have started"]
 },
 
 {
-type:"typing",
+type:"multiple",
 category:"grammar",
-question:"___ are you from?",
-correct:["where"]
+question:"I wish I ________ to the beach with you yesterday, but I had to work",
+
+options:[
+" went",
+"have gone",
+"had gone",
+"would go",
+],
+
+correct:["had gone"]
 },
 
 {
-type:"typing",
+type:"multiple",
 category:"grammar",
-question:"___ is that man?",
-correct:["who"]
+question:"_______ heavy rain, the match was cancelled",
+
+options:[
+"Because",
+"Due to",
+"Although",
+"In spite of", 
+],
+
+correct:["Due to"]
 },
 
 {
-type:"typing",
+type:"multiple",
 category:"grammar",
-question:"___ is your birthday?",
-correct:["when"]
+question:"She is the woman ________ car was stolen last week",
+
+options:[
+"who",
+"which",
+"whose",
+"that", 
+],
+
+correct:["whose"]
 },
 
 {
-type:"typing",
+type:"multiple",
 category:"grammar",
-question:"___ do you study English?",
-correct:["why"]
+question:"You ________ have seen John yesterday; he was out of the country",
+
+options:[
+"must",
+"can't",
+"shouldn't",
+"needn't", 
+],
+
+correct:["can't"]
 },
 
 {
-type:"typing",
+type:"multiple",
 category:"grammar",
-question:"___ old are you?",
-correct:["how"]
+question:"Hardly ________ arrived at the station when the train pulled in",
+
+options:[
+"we had",
+"had we",
+"did we",
+"we have",  
+],
+correct:["had we"]
 },
 
 {
-type:"typing",
+type:"multiple",
 category:"grammar",
-question:"___ do you go to work?",
-correct:["how"]
+question:"This time tomorrow, we ________ on a beach in Spain",
+
+options:[
+"will lie",
+"will be lying",
+"will have lied",
+"lie",  
+],
+
+correct:["will be lying"]
 },
 
 {
-type:"typing",
+type:"multiple",
 category:"grammar",
-question:"___ is my jacket?",
-correct:["where"]
+question:"I am used ________ up early in the morning for my new job",
+
+options:[
+"to wake",
+"wake",
+"to waking",
+"woke",  
+],
+
+correct:["to waking"]
 },
 
 {
-type:"typing",
+type:"multiple",
 category:"grammar",
-question:"___ is your favorite color?",
-correct:["what"]
+question:"The new policy ________ by the board of directors next Monday",
+
+options:[
+"will approve",
+"will be approved",
+"will approved",
+"is approving",  
+],
+
+correct:["will be approved"]
 },
 
 {
-type:"typing",
+type:"multiple",
 category:"grammar",
-question:"___ did you call last night?",
-correct:["who"]
+question:"If I ________ you, I would apologize for the misunderstanding",
+
+options:[
+"am",
+"was",
+"were",
+"would be",  
+],
+
+correct:["were"]
 },
 
 {
-type:"typing",
+type:"multiple",
 category:"grammar",
-question:"___ is my book here.",
-correct:["this"]
+question:"She had her house ________ last week after the storm.",
+
+options:[
+"to paint",
+"painted",
+"painting",
+"paint",  
+],
+
+correct:["painted"]
 },
 
 {
-type:"typing",
+type:"multiple",
 category:"grammar",
-question:"___ are your shoes over there.",
-correct:["those"]
+question:"_____ she was very tired, she finished all her homework",
+
+options:[
+"Even though",
+"Despite",
+"In spite of",
+"However",  
+],
+
+correct:["Even though"]
 },
 
 {
-type:"typing",
+type:"multiple",
 category:"grammar",
-question:"Do you like ___ flower?",
-correct:["this"]
+question:"He admitted ________ the window with his football",
+
+options:[
+"to break",
+"break",
+"breaking",
+"broke",  
+],
+
+correct:["breaking"]
 },
 
 {
-type:"typing",
+type:"multiple",
 category:"grammar",
-question:"___ apples on the tree are delicious.",
-correct:["those"]
+question:"The food was ________ delicious that we ate every single bite.",
+
+options:[
+"very",
+"too",
+"such",
+"so",  
+],
+
+correct:["so"]
 },
 
 {
-type:"typing",
+type:"multiple",
 category:"grammar",
-question:"Who is ___ guy over there?",
+question:"I regret ________ you that your application has been unsuccessful",
+
+options:[
+"to inform",
+"informing",
+"informed",
+"inform",  
+],
+
+correct:["to inform"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"The project, ________ was finished on time, was a huge success.",
+
+options:[
+"that",
+"which",
+"what",
+"who",  
+],
+
+correct:["which"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"He would rather ________ a coffee than a tea.",
+
+options:[
+"to have",
+"having",
+"have",
+"had",  
+],
+
+correct:["have"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"Neither the manager nor the employees ________ aware of the problem.",
+
+options:[
+"is",
+"was",
+"are",
+"has",  
+],
+
+correct:["are"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"You ________ worry about the presentation; I have everything under control.",
+
+options:[
+"don't have to",
+"mustn't",
+"shouldn't",
+"can't",  
+],
+
+correct:["don't have to"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"______ the terrible weather, we had a wonderful holiday",
+
+options:[
+"Although",
+"Despite",
+"Even though",
+"Because",  
+],
+
+correct:["Despite"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+questions:"Seldom _____ such a breathtaking performance by such a young artist",
+
+options:[
+"have I seen",
+"I have seen",
+"did I saw",
+"I saw",  
+],
+
+correct:["have I seen"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"_____ all the necessary preparations, she finally felt ready for the interview.",
+
+options:[
+"Having been made",
+"Having made",
+"To make",
+"Make",  
+],
+
+correct:"having made"
+},
+
+{
+typing:"multiple",
+category:"grammar",
+question:"If I _____ so much coffee yesterday, I _____ able to sleep last night",
+
+options:[
+"didn't drink / would be",
+"hadn't drunk / would have been",
+"hadn't drunk / would be",
+"wouldn't drink / was",  
+],
+
+correct:["hadn't drunk / would be"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"What _____ do is to write a formal letter of apology to the manager",
+
+options:[
+"we must",
+"must we",
+"we have to",
+"did we",  
+],
+
+correct:["we must"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"The new CEO is believed _____ the company's financial strategy entirely",
+
+options:[
+"to be changed",
+"to have changed",
+"having changed'",
+"that he changes",  
+],
+
+correct:["to have changed"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"I’d rather you _____ me about the changes in the schedule yesterday",
+
+options:[
+"tell",
+"have told",
+"had told",
+"would tell",  
+],
+
+correct:["had told"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"It is imperative that everyone _____ the safety regulations strictly",
+
+options:[
+"follows",
+"to follow",
+"follow",
+"followed",  
+],
+
+correct:["follow"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"_____ tired he felt, he continued working on the project until midnight",
+
+options:[
+"Despite",
+"Although",
+"Even",
+"However",  
+],
+
+correct:["however"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"It is _____ who always organize the annual charity event",
+
+options:[
+"we",
+"us",
+"ourselves",
+"our",  
+],
+
+correct:["us"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"You _____ me about the meeting being canceled; I wasted two hours commuting!",
+
+options:[
+"should tell",
+"must have told",
+"needn't have told",
+"ought to have told",  
+],
+
+correct:["ought to have told"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"The more time we spend on the research, _____ the final results will be",
+
+options:[
+"better",
+"the better",
+"the best",
+"best",  
+],
+
+correct:["the better"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"The company, _____ CEO resigned yesterday, is currently undergoing a massive restructuring",
+
+options:[
+"that",
+"whose",
+"which",
+"who",  
+],
+
+correct:["whose"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"They _____ to launch the product in May, but the plans were delayed",
+
+options:[
+"were",
+"were due",
+"are",
+"have been",  
+],
+
+correct:["were due"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"Instead _____ for the train, let's take a taxi",
+
+options:[
+"to wait",
+"of waiting",
+"waiting",
+"to waiting",  
+],
+
+correct:["of waiting"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"It's high time the government _____ more funds into public education",
+
+options:[
+"to invest",
+"invested",
+"invests",
+"investing",  
+],
+
+correct:["invested"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"_____ the applicants had the necessary qualifications for the position",
+
+options:[
+"Few of",
+"None",
+"Neither",
+"Little of",
+],
+
+correct:["few of"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"The hotel room was spacious and clean; _____ , it was in a terrible location",
+
+options:[
+"therefore",
+"furthermore",
+"nevertheless",
+"besides",  
+],
+
+correct:["nevertheless"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"I distinctly remember _____ the door before leaving the house",
+
+options:[
+"locking",
+"to lock",
+"having locked",
+"locked",  
+],
+
+correct:["locking"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"Suppose _____ the lottery, what would you have done?",
+
+options:[
+"you would win",
+"you win",
+"you had won",
+"do you win",  
+],
+
+correct:["you had won"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"The package, _____ yesterday, should arrive by Friday",
+
+options:[
+"having sent",
+"sent",
+"sending",
+"was sent",  
+],
+
+correct:["sent"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"Seldom _______ such a breathtaking display of northern lights",
+
+options:[
+"have I witnessed",
+"I have witnessed",
+"did I witnessed",
+"I witnessed",  
+],
+
+correct:["have I witnessed"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"Not until the manager _______ the contract _______ we proceed with the project",
+
+options:[
+"had signed / would",
+"signs / will",
+"has signed / can",
+"had signed / did",
+],
+
+correct:["has signed / can"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"_______ had we arrived at the beach than it started to pour with rain",
+
+options:[
+"Hardly",
+"No sooner",
+"Scarcely",
+"As soon as",  
+],
+
+correct:["No sooner"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"It is imperative that every candidate _______ their application submitted by Friday",
+
+options:[
+"has",
+"had",
+"have",
+"having",  
+],
+
+correct:["have"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"Supposing you _______ the lottery, what _______ with the money?",
+
+options:[
+"win / will you do",
+"won / would you do",
+"had won / would you have done",
+"win / would you do",  
+],
+
+correct:"won / would you do",
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"_______ for your timely intervention, the company would have gone bankrupt",
+
+options:[
+"Had it not been",
+"Was it not",
+"Were it not",
+"If it wasn't",  
+],
+
+correct:["Had it not been"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"You _______ me that the meeting was canceled; I wasted two hours driving here",
+
+options:[
+"should have told",
+"must have told",
+"could tell",
+"need to have told",  
+],
+
+correct:["should have told"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"She _______ her assignments on time, but she was incredibly lazy this semester",
+
+options:[
+"could submit",
+"was able to submit",
+"could have submitted",
+"can submit",  
+],
+
+correct:["could have submitted"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"It's high time you _______ taking your responsibilities seriously",
+
+options:[
+"start",
+"started",
+"will start",
+"have started", 
+],
+
+correct:["started"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:" _______ I really admire is her dedication to her students",
+
+options:[
+"That",
+"Which",
+"What",
+"Who",  
+],
+
+correct:["What"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"All _______ is a little peace and quiet to finish this novel.",
+
+options:[
+"I need",
+"I need do",
+"do I need",
+"I need that",  
+],
+
+correct:["I need"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"It was in Paris _______ she finally met the love of her life",
+
+options:[
+"where",
+"that",
+"which",
+"in which",  
+],
+
 correct:["that"]
 },
 
 {
-type:"typing",
+type:"multiple",
 category:"grammar",
-question:"___ are my keys in my hand.",
-correct:["these"]
+question:"The building, _______ of reinforced concrete, withstood the earthquake perfectly",
+
+options:[
+"which constructed",
+"constructed",
+"constructing",
+"was constructed",  
+],
+
+correct:["constructed"]
 },
 
 {
-type:"typing",
+type:"multiple",
 category:"grammar",
-question:"Is ___ your car?",
-correct:["this"]
+question:"_______ the heavy traffic, we arrived exactly on time",
+
+options:[
+"Despite of",
+"In spite of",
+"Although",
+"Even though",  
+],
+
+correct:["In spite of"]
 },
 
 {
-type:"typing",
+type:"multiple",
 category:"grammar",
-question:"___ books here belong to me.",
-correct:["these"]
+question:"Many a time _______ pondered the meaning of existence",
+
+options:[
+"have I",
+"I have",
+"has I",
+"I had",  
+],
+
+correct:["have I"]
 },
 
 {
-type:"typing",
+type:"multiple",
 category:"grammar",
-question:"Look at ___ birds in the sky.",
-correct:["those"]
+question:"Little _______ that their entire plan was about to be exposed",
+
+options:[
+"did they know",
+"they knew",
+"do they know",
+"they had known",  
+],
+
+correct:["did they know"]
 },
 
 {
-type:"typing",
+type:"multiple",
 category:"grammar",
-question:"___ is a great idea!",
-correct:["this"]
-}
+question:"Try _______ might, he could not open the stubborn jar",
+
+options:[
+"as he",
+"although he",
+"however he",
+"that he",  
+],
+
+correct:["as he"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"Should you _______ any assistance, do not hesitate to contact our help desk",
+
+options:[
+"require",
+"required",
+"requiring",
+"requires",  
+],
+
+correct:["require"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"I regret _______ you that your application has been unsuccessful",
+
+options:[
+"inform",
+"to inform",
+"informing",
+"informed",  
+],
+
+correct:["to inform"]
+},
+
+{
+type:"multiple",
+category:"grammar",
+question:"He is believed _______ the country under a false alias",
+
+options:[
+"to have fled",
+"to flee",
+"fleeing",
+"fled",  
+],
+
+correct:["to have fled"]
+},
 ];
 
 const vocabularyQuestions = [
@@ -5789,239 +6556,316 @@ const vocabularyQuestions = [
 {
 type:"typing",
 category:"vocabulary",
-question:"Where do you sleep?",
-correct:["bedroom"]
+question:"I drink a glass of orange _________ every morning",
+correct:["juice"]
 },
 
 {
 type:"typing",
 category:"vocabulary",
-question:"Where do you cook?",
-correct:["kitchen"]
+question:"My mother's brother is my _________",
+correct:["uncle"]
 },
 
 {
 type:"typing",
 category:"vocabulary",
-question:"What do you sit on in the living room?",
-correct:["sofa","couch"]
-},
-
-{
-type:"typing",
-category:"vocabulary",
-question:"You wash your hands in the...",
-correct:["bathroom"]
-},
-
-{
-type:"typing",
-category:"vocabulary",
-question:"Use this to open a locked door.",
-correct:["key"]
-},
-
-{
-type:"typing",
-category:"vocabulary",
-question:"You turn this on to see in a dark room.",
-correct:["light"]
-},
-
-{
-type:"typing",
-category:"vocabulary",
-question:"A place where you can park your car.",
-correct:["garage"]
-},
-
-{
-type:"typing",
-category:"vocabulary",
-question:"We eat our dinner in the...",
-correct:["dining room"]
-},
-
-{
-type:"typing",
-category:"vocabulary",
-question:"Use this to climb to the second floor.",
-correct:["stairs"]
-},
-
-{
-type:"typing",
-category:"vocabulary",
-question:"A soft thing you put your head on in bed.",
-correct:["pillow"]
-},
-
-{
-type:"typing",
-category:"vocabulary",
-question:"A yellow fruit that monkeys love.",
-correct:["banana"]
-},
-
-{
-type:"typing",
-category:"vocabulary",
-question:"A red or green fruit used to make juice.",
-correct:["apple"]
-},
-
-{
-type:"typing",
-category:"vocabulary",
-question:"You drink this hot, black or brown liquid in the morning.",
-correct:["coffee"]
-},
-
-{
-type:"typing",
-category:"vocabulary",
-question:"A cold, white drink that comes from cows.",
-correct:["milk"]
-},
-
-{
-type:"typing",
-category:"vocabulary",
-question:"A sweet food eaten on birthdays.",
-correct:["cake"]
-},
-
-{
-type:"typing",
-category:"vocabulary",
-question:"A long, yellow fruit that grows in bunches.",
-correct:["banana"]
-},
-
-{
-type:"typing",
-category:"vocabulary",
-question:"A round Italian food with cheese and tomato.",
-correct:["pizza"]
-},
-
-{
-type:"typing",
-category:"vocabulary",
-question:"You use a knife and... to eat.",
-correct:["fork"]
-},
-
-{
-type:"typing",
-category:"vocabulary",
-question:"A round orange fruit.",
-correct:["orange"]
-},
-
-{
-type:"typing",
-category:"vocabulary",
-question:"Water frozen into ice.",
-correct:["ice"]
-},
-
-{
-type:"typing",
-category:"vocabulary",
-question:"You wear these on your feet inside your shoes.",
-correct:["socks"]
-},
-
-{
-type:"typing",
-category:"vocabulary",
-question:"You wear this around your waist to hold up your pants.",
-correct:["belt"]
-},
-
-{
-type:"typing",
-category:"vocabulary",
-question:"An upper-body garment with buttons and a collar.",
-correct:["shirt"]
-},
-
-{
-type:"typing",
-category:"vocabulary",
-question:"A one-piece garment worn by women or girls.",
-correct:["dress"]
-},
-
-{
-type:"typing",
-category:"vocabulary",
-question:"Footwear that covers your feet.",
-correct:["shoes"]
-},
-
-{
-type:"typing",
-category:"vocabulary",
-question:"You wear this warm garment when it is cold outside.",
-correct:["coat"]
-},
-
-{
-type:"typing",
-category:"vocabulary",
-question:"A piece of clothing worn on your legs (not shorts).",
-correct:["pants","trousers"]
-},
-
-{
-type:"typing",
-category:"vocabulary",
-question:"You wear this on your head to block the sun.",
-correct:["hat"]
-},
-
-{
-type:"typing",
-category:"vocabulary",
-question:"A piece of clothing worn over a shirt for formal events.",
-correct:["jacket"]
-},
-
-{
-type:"typing",
-category:"vocabulary",
-question:"You wear this when swimming.",
-correct:["swimsuit"]
-},
-
-{
-type:"typing",
-category:"vocabulary",
-question:"The first day of the weekend.",
-correct:["saturday"]
-},
-
-{
-type:"typing",
-category:"vocabulary",
-question:"The day after Monday.",
+question:"The day after Monday is _________",
 correct:["tuesday"]
 },
 
 {
 type:"typing",
 category:"vocabulary",
-question:"How many days are in a week?",
-correct:["7","seven"]
+question:"We need to buy some food. Let's go to the _________.",
+correct:["supermarket"]
 },
 
 {
 type:"typing",
 category:"vocabulary",
-question:"The fifth month of the year.",
-correct:["may"]
+question:"I have a pen and a notebook in my school _________.",
+correct:["bag"]
+},
+
+{
+type:"typing",
+category:"vocabulary",
+question:"My sister is very young. She is only two years _________.",
+correct:["old"]
+},
+
+{
+type:"typing",
+category:"vocabulary",
+question:"It is very hot outside. I want to wear a T-shirt and _________.",
+correct:["shorts"]
+},
+
+{
+type:"typing",
+category:"vocabulary",
+question:"Can I have a _________ of water, please?",
+correct:["glass"]
+},
+
+{
+type:"typing",
+category:"vocabulary",
+question:"My father drives a red _________.",
+correct:["car"]
+},
+
+{
+type:"typing",
+category:"vocabulary",
+question:"I use a _________ to eat my soup.",
+correct:["spoon"]
+},
+
+{
+type:"typing",
+category:"vocabulary",
+question:"He likes to _________ books in the evening.",
+correct:["read"]
+},
+
+{
+type:"typing",
+category:"vocabulary",
+question:"There are seven days in a _________.",
+correct:["week"]
+},
+
+{
+type:"typing",
+category:"vocabulary",
+question:"I wash my hands with soap and _________.",
+correct:["water"]
+},
+
+{
+type:"typing",
+category:"vocabulary",
+question:"It is cold. Put on your _________.",
+correct:["coat"]
+},
+
+{
+type:"typing",
+category:"vocabulary",
+question:"My birthday is in the _________ month of the year, December",
+correct:["last"]
+},
+
+{
+type:"typing",
+category:"vocabulary",
+question:"The opposite of 'big' is _________.",
+correct:["small"]
+},
+
+{
+type:"typing",
+category:"vocabulary",
+question:"I sleep in my _________ at night",
+correct:["bed"]
+},
+
+{
+type:"typing",
+category:"vocabulary",
+question:"Can you _________ the door, please? It is very loud.",
+correct:["close"]
+},
+
+{
+type:"typing",
+category:"vocabulary",
+question:"We eat our lunch in the _________.",
+correct:["afternoon"]
+},
+
+{
+type:"typing",
+category:"vocabulary",
+question:"An apple is a _________.",
+correct:["fruit"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"You can buy fresh bread and cakes at the __________.",
+
+options:[
+"butcher",
+"baker",
+"chemist",  
+],
+
+correct:["baker"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"I was very __________ when I heard I had passed the exam!",
+
+options:[
+"bored",
+"tired",
+"excited",  
+],
+
+correct:["excited"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"We need to __________ the train at the next station.",
+
+options:[
+"get off",
+"get up",
+"get on",  
+],
+
+correct:["get off"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"Can you __________ me a favor and help me with these bags?",
+
+options:[
+"do",
+"make",
+"give",  
+],
+
+correct:["do"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"My sister works in a hospital. She is a __________.",
+
+options:[
+"dentist",
+"nurse",
+"waiter",  
+],
+
+correct:["nurse"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"In the summer, the weather is usually hot and __________.",
+
+options:[
+"6.cloudy",
+"snowy",
+"sunny",  
+],
+
+correct:["sunny"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"I usually __________ up at 7:00 AM every morning.",
+
+options:[
+"go",
+"wake",
+"do",  
+],
+
+correct:["wake"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"Put your __________ on your bed when you go to sleep",
+
+options:[
+"pillow",
+"sofa",
+"fridge",  
+],
+
+correct:["pillow"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"I don't have any money in my __________.",
+
+options:[
+"wallet",
+"passport",
+"ticket",  
+],
+
+correct:["wallet"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"Can you __________ the door? It’s very cold in here.",
+
+options:[
+"open",
+"close",
+"look",  
+],
+
+correct:["close"]
+},
+
+{
+type:"typing",
+category:"vocabulary",
+question:"I don't eat __________; I am a vegetarian.",
+correct:["meat"]
+},
+
+{
+type:"typing",
+category:"vocabulary",
+question:"It is raining outside, so don't forget to wear your __________.",
+correct:["coat"]
+},
+
+{
+type:"typing",
+category:"vocabulary",
+question:"I can't read the board because I forgot my __________.",
+correct:["glasses"]
+},
+
+{
+type:"typing",
+category:"vocabulary",
+question:"An __________ is a red or green fruit.",
+correct:["apple"]
+},
+
+{
+type:"typing",
+category:"vocabulary",
+question:"My father drives a very fast __________.",
+correct:["car"]
 },
 
 {
@@ -6055,16 +6899,1190 @@ correct:["morning"]
 {
 type:"typing",
 category:"vocabulary",
-question:"The time of day when you go to sleep.",
-correct:["night"]
+question:"Another word for 60 minutes.",
+correct:["hour"]
 },
 
 {
-type:"typing",
+type:"multiple",
 category:"vocabulary",
-question:"Another word for 60 minutes.",
-correct:["hour"]
-}
+question:"The movie was so ________ that I fell asleep in the middle of it.",
+
+options:[
+"exciting",
+"boring'",
+"funny",  
+],
+
+correct:["boring"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"We need to ________ the meeting until next Tuesday because the manager is sick.",
+
+options:[
+"put off",
+"put on",
+"put up",  
+],
+
+correct:["put off"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"If you want to get fit, you should ________ a new sport like swimming or tennis.",
+
+options:[
+"take care of",
+"take up",
+"take off",  
+],
+
+correct:["take up"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"Sarah was very ________ when she passed her driving test on the first try.",
+
+options:[
+"disappointed",
+"nervous",
+"delighted",  
+],
+
+correct:["delighted"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"Be careful not to ________ the bus; it leaves exactly at 8:00 AM.",
+
+options:[
+"lose",
+"miss",
+"catch",  
+],
+
+correct:["miss"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"The weather was terrible, so we decided to ________ at home and watch a movie.",
+
+options:[
+"stay",
+"spend",
+"leave",  
+],
+
+correct:["stay"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"My brother is completely ________ on playing video games all weekend.",
+
+options:[
+"7.interested",
+"keen",
+"addicted",  
+],
+
+correct:["addicted"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"Could you please ________ the volume on the TV? It’s too loud.",
+
+options:[
+"turn down",
+"turn up",
+"turn off", 
+],
+
+correct:["turn down"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"The teacher asked us to ________ a short story about our last holiday.",
+
+options:[
+"write down",
+"make up",
+"bring up",  
+],
+
+correct:["make up"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"I am really ________ to seeing my old friends at the reunion this summer.",
+
+options:[
+"looking forward",
+"looking after",
+"looking for",  
+],
+
+correct:["looking forward"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"She is an ________ person who loves meeting new people and going to parties.",
+
+options:[
+"shy",
+"outgoing",
+"quiet",  
+],
+
+correct:["outgoing"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"You don’t need to pay for this map; it is ________ of charge.",
+
+options:[
+"free",
+"cheap",
+"clear", 
+],
+
+correct:["free"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"The company decided to ________ a new product to help people sleep better.",
+
+options:[
+"invent",
+"discover",
+"introduce",  
+],
+
+correct:["introduce"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"I always try to ________ money every month so I can go on vacation.",
+
+options:[
+"save",
+"spend",
+"borrow",  
+],
+
+correct:["save"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"Learning to play the guitar requires a lot of ________ and practice.",
+
+options:[
+"time",
+"patience",
+"interest",  
+],
+
+correct:["patience"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"Can you ________ me ($20) until Friday? I forgot my wallet at home.",
+
+options:[
+"borrow",
+"lend",
+"give",  
+],
+
+correct:["lend"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"It was ________ to see a rainbow right after the heavy rain stopped.",
+
+options:[
+"amazing",
+"angry",
+"bored",  
+],
+
+correct:["amazing"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"He had to ________ his coat because the room was very hot.",
+
+options:[
+"put on",
+"take off",
+"try on",  
+],
+
+correct:["take off"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"The two brothers look exactly ________ each other. People always confuse them!",
+
+options:[
+"alike",
+"like",
+"as",  
+],
+
+correct:["alike"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"Don't forget to ________ the lights when you leave the office.",
+
+options:[
+"turn off",
+"turn over",
+"turn into",  
+],
+
+correct:["turn off"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"The new policy _________ a lot of criticism from the public.",
+
+options:[
+"brought about",
+"provoked",
+"carried out",
+"contributed",  
+],
+
+correct:["provoked"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"I didn't mean to _________ your feelings, but I thought you needed to hear the truth.",
+
+options:[
+"damage",
+"injure",
+"hurt",
+"spoil",  
+],
+
+correct:["hurt"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"She has a very _________ schedule this week, with meetings from 9 AM to 6 PM every day.",
+
+options:[
+"heavy",
+"hard",
+"strong",
+"dense",  
+],
+
+correct:["heavy"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"We need to _________ the problem before it gets completely out of hand.",
+
+options:[
+"look into",
+"tackle",
+"put up with",
+"come across",  
+],
+
+correct:["tackle"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"Learning to play an instrument requires a lot of _________ and patience.",
+
+options:[
+"dedication",
+"ambition",
+"obsession",
+"enthusiasm",  
+],
+
+correct:["dedication"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"The weather _________ for tomorrow indicates heavy rain and strong winds.",
+
+options:[
+"forecast",
+"prediction",
+"outlook",
+"vision",  
+],
+
+correct:["forecast"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"Could you please _________ me on the latest developments in the project?",
+
+options:[
+"update",
+"inform",
+"notify",
+"explain",  
+],
+
+correct:["update"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"His sudden resignation _________ everyone in the office by surprise.",
+
+options:[
+"took",
+"made",
+"brought",
+"caught",  
+],
+
+correct:["caught"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"The company decided to _________ their old logo with a more modern design",
+
+options:[
+"replace",
+"swap",
+"exchange",
+"substitute",  
+],
+
+correct:["replace"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"Despite the heavy snow, they managed to _________ the top of the mountain.",
+
+options:[
+"arrive",
+"reach",
+"achieve",
+"accomplish",  
+],
+
+correct:["reach"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"The teacher asked the students to _________ a solution to the environmental issue.",
+
+options:[
+"come up with",
+"put up with",
+"catch up with",
+"get away with",  
+],
+
+correct:["come up with me"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"The heavy rain caused a _________ delay in all morning flights.",
+
+options:[
+"significant",
+"heavy",
+"huge",
+"wide",  
+],
+
+correct:["significant"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"I find it difficult to _________ the noise when I am trying to study.",
+
+options:[
+"resist",
+"tolerate",
+"maintain",
+"undergo",  
+],
+
+correct:["tolerate"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"The CEO decided to _________ down and let a younger executive take over.",
+
+options:[
+"step",
+"fall",
+"go",
+"pass",  
+],
+
+correct:["step"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"She is fluent in three languages, which gives her a great _________ in the job market.",
+
+options:[
+"advantage",
+"benefit",
+"profit",
+"victory",  
+],
+
+correct:["advantage"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"The detective examined the clues carefully to _________ who committed the crime.",
+
+options:[
+"figure out",
+"turn out",
+"carry out",
+"point out",  
+],
+
+correct:["figure out"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"We were all _________ by the beautiful scenery at the top of the cliff.",
+
+options:[
+"overwhelmed",
+"exhausted",
+"stressed",
+"ignored",  
+],
+
+correct:["overwhelmed"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"He has a very _________ personality and easily makes new friends.",
+
+options:[
+"outgoing",
+"outcoming",
+"outspoken",
+"outcome",  
+],
+
+correct:["outgoing"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"You should _________ the opportunity to study abroad if it arises.",
+
+options:[
+"seize",
+"catch",
+"hold",
+"grab",  
+],
+
+correct:["seize"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"The charity aims to _________ awareness about the importance of recycling.",
+
+options:[
+"raise",
+"rise",
+"lift",
+"grow",  
+],
+
+correct:["raise"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"Fill in the blank: Despite his lack of formal experience, he managed to secure the job due to his __________ knowledge of the industry.",
+
+options:[
+"superficial",
+"encyclopedic",
+"negligible",
+"rudimentary",  
+],
+
+correct:["encyclopedic"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"Fill in the blank: The company decided to __________ the old policy and introduce a much more flexible system.",
+
+options:[
+"endorse",
+"uphold",
+"abolish",
+"foster",  
+],
+
+correct:["abolish"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"Which word is a synonym for 'to reduce or lessen the severity of'?",
+
+options:[
+"aggravate",
+"mitigate",
+"instigate",
+"precipitate",  
+],
+
+correct:["mtigate"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:" Fill in the blank: Her __________ display of emotion at the funeral surprised everyone who knew her as a stoic person.",
+
+options:[
+"uncharacteristic",
+"customary",
+"habitual",
+"predictable",  
+],
+
+correct:["uncharacterisitic"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"Which of the following words means 'impossible to understand'?",
+
+options:[
+"lucid",
+"transparent",
+"incoherent",
+"intelligible",  
+],
+
+correct:["incoherent"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"Fill in the blank: The new regulations __________ that all employees must complete safety training before operating the machinery.",
+
+options:[
+"entail",
+"stipulate",
+"imply",
+"assume",  
+],
+
+correct:["stipulate"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"Which word best completes this sentence? The politician's __________ speech was filled with empty promises and aimed to manipulate the crowd.",
+
+options:[
+"eloquent",
+"demagogic",
+"candid",
+"objective",  
+],
+
+correct:["demagogic"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"Fill in the blank: The economic downturn __________ a sharp decline in consumer spending.",
+
+options:[
+"resulted",
+"provoked",
+"culminated",
+"stemmed",  
+],
+
+correct:["provoked"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"What does the idiom 'to bite the bullet' mean?",
+
+options:[
+"To eat something unpleasant",
+"To face a difficult situation with courage and patience",
+"To suddenly become angry",
+"To surrender to the enemy",  
+],
+
+correct:["To face a difficult situation with courage and patience"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"Fill in the blank: The architect’s design was heavily criticized for being __________ and impractical for everyday use.",
+
+options:[
+"pragmatic",
+"utilitarian",
+"grandiose",
+"functional",  
+],
+
+correct:["grandiose"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"Which word means 'showing a lack of respect for things that are generally taken seriously'?",
+
+options:[
+"reverent",
+"solemn",
+"flippant",
+"earnest",  
+],
+
+correct:["flippant"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"Fill in the blank: The detective's __________ questioning eventually led to the suspect confessing to the crime.",
+
+options:[
+"lenient",
+"relentless",
+"sluggish",
+"merciful",  
+],
+
+correct:["relentless"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:" Which word means 'to express strong disapproval of?",
+
+options:[
+"condemn",
+"endorse",
+"advocate",
+"sanction",  
+],
+
+correct:["condemn"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"Fill in the blank: The ancient artifact was __________ to the museum by an anonymous collector.",
+
+options:[
+"squandered",
+"bequeathed",
+"confiscated",
+"appropriated",  
+],
+
+correct:["bequeathed"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:" What does the word 'ubiquitous' mean?",
+
+options:[
+"Found everywhere",
+"Extremely rare",
+"Mysterious and hidden",
+"Very dangerous",  
+],
+
+correct:["Found everywhere"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"Fill in the blank: The CEO is known for her __________ approach to business, never letting personal feelings interfere with her decisions.",
+
+options:[
+"passionate",
+"detached",
+"zealous",
+"emotional",  
+],
+
+correct:["detached"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"Which word is an antonym for 'ephemeral'?",
+
+options:[
+"transient",
+"momentary",
+"everlasting",
+"fleeting",  
+],
+
+correct:["everlasting"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"Fill in the blank: After the scandal, the mayor tried to __________ his reputation by launching a new charity initiative.",
+
+options:[
+"tarnish",
+"redeem",
+"undermine",
+"jeopardize",  
+],
+
+correct:["redeem"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"Which phrase means 'to delay taking action until a later time'?",
+
+options:[
+"To call it a day",
+"To burn the midnight oil",
+"To put something on the back burner",
+"To hit the nail on the head",  
+],
+
+correct:["To put something on the back burner"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:" Fill in the blank: The professor's __________ argument completely dismantled my theory",
+
+options:[
+"cogent",
+"feeble",
+"flawed",
+"specious",  
+],
+
+correct:["cogent"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"His relentless ambition ________ him to the top of the corporate ladder, despite the fierce competition.",
+
+options:[
+"propelled",
+"eluded",
+"subdued",
+"curtailed",  
+],
+
+correct:["propelled"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"The politician's carefully crafted speech was designed to ________ the public's growing concern without offering any real solutions.",
+
+options:[
+"exacerbate",
+"placate",
+"instigate",
+"refute",  
+],
+
+correct:["placate"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"Despite the overwhelming evidence against him, the defendant maintained an air of ________ innocence throughout the trial.",
+
+options:[
+"ostensible",
+"palpable",
+"feigned",
+"erratic",  
+],
+
+correct:["feigned"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"The new CEO decided to ________ the outdated company policies and implement a more modern, flexible framework.",
+
+options:[
+"rescind",
+"endorse",
+"adhere",
+"augment",  
+],
+
+correct:["rescind"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"She is an ________ reader of historical fiction, often finishing three or four novels a week.",
+
+options:[
+"avid",
+"amateur",
+"apathetic",
+"ambiguous",  
+],
+
+correct:["avid"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"The ancient ruins were ________ with moss, making them look even more mysterious and enchanting.",
+
+options:[
+"devoid",
+"interspersed",
+"overgrown",
+"destitute",  
+],
+
+correct:["overgrown"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"Winning the championship was a ________ moment for the team after years of rigorous training and setbacks.",
+
+options:[
+"fleeting",
+"momentous",
+"tedious",
+"mundane",  
+],
+
+correct:["momentous"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"The professor's lectures were so ________ that many students struggled to grasp the core concepts.",
+
+options:[
+"lucid",
+"coherent",
+"obscure",
+"concise",  
+],
+
+correct:["obscure"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"In the face of such adversity, it is crucial to ________ your inner strength and keep pushing forward.",
+
+options:[
+"muster",
+"squander",
+"diminish",
+"deter",  
+],
+
+correct:["muster"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"The artist's latest sculpture is a ________ of metal, glass, and discarded electronics.",
+
+options:[
+"panorama",
+"synthesis",
+"mosaic",
+"collage",  
+],
+
+correct:["synthesis"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"The heavy rain ________ the soil, making it impossible to plant the crops.",
+
+options:[
+"desiccated",
+"saturated",
+"parched",
+"cultivated",  
+],
+
+correct:["saturated"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"The detective had a ________ feeling that the suspect was lying about his whereabouts.",
+
+options:[
+"tangible",
+"luminescent",
+"nagging",
+"dormant",  
+],
+
+correct:["nagging"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"After the scandal, the mayor tried to ________ his reputation by donating to local charities.",
+
+options:[
+"tarnish",
+"vindicate",
+"embellish",
+"refurbish",  
+],
+
+correct:["vindicate"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"The treaty was signed to ________ the long-standing hostilities between the two neighboring countries.",
+
+options:[
+"aggravate",
+"terminate",
+"provoke",
+"entangle",  
+],
+
+correct:["terminate"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"The author's writing style is ________, characterized by overly long and complicated sentences.",
+
+options:[
+"succinct",
+"eloquent",
+"convoluted",
+"pragmatic",  
+],
+
+correct:["convoluted"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"The sudden drop in temperature ________ the onset of a harsh and unforgiving winter.",
+
+options:[
+"heralded",
+"concealed",
+"impeded",
+"hindered",  
+],
+
+correct:["heralded"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"She has a ________ for languages, picking up new vocabulary and grammar rules with incredible ease.",
+
+options:[
+"penchant",
+"propensity",
+"predilection",
+"knack",  
+],
+
+correct:["knack"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"The company's sudden success was ________ to a brilliant marketing campaign and a highly innovative product.",
+
+options:[
+"attributed",
+"subjected",
+"subjected",
+"subjected",  
+],
+
+correct:["attributed"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"The negotiations reached an ________ when neither side was willing to compromise on their core demands.",
+
+options:[
+"impasse",
+"outbreak",
+"influx",
+"uproar",  
+],
+
+correct:["impasse"]
+},
+
+{
+type:"multiple",
+category:"vocabulary",
+question:"The CEO's ________ remarks during the meeting offended several senior members of the board.",
+
+options:[
+"tactful",
+"discreet",
+"injudicious",
+"diplomatic",  
+],
+
+correct:["injudicious"]
+},
+
 
 ];
 

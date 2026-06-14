@@ -34,6 +34,10 @@ function createCertificate() {
 
 <div id="certificate" class="certificate">
 
+    <img src="favicon.png" class="cert-logo">
+
+<img src="favicon.png" class="cert-logo">
+
     <h1>CERTIFICATE</h1>
 
     <h3 class="school-name">

@@ -54,35 +54,68 @@ body{
 }
 
 .certificate{
-    background:white;
-    border:15px solid gold;
-    padding:60px;
+    width:1200px;
+    height:850px;
+
+    max-width:100%;
+
+    background:#ffffff;
+
+    border:18px solid #d4af37;
+
+    padding:70px;
+
+    box-sizing:border-box;
+
     text-align:center;
-    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+
+    position:relative;
+
+    overflow:hidden;
+
+    margin:auto;
+
+    border-radius:20px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.25);
 }
 
 .school-name{
-    font-size:26px;
-    color:#444;
+    font-size:32px;
+
+    color:#d4af37;
+
+    font-weight:bold;
+
+    margin-bottom:25px;
 }
 
 .congrats{
-    font-size:42px;
-    color:#0d6efd;
-    margin:20px 0;
-}
+    color:#0b1c2c;
 
-.student-name{
-    font-size:48px;
-    font-weight:bold;
-    color:#222;
+    font-size:50px;
+
     margin:25px 0;
 }
 
+.student-name{
+    font-size:60px;
+
+    color:#d4af37;
+
+    font-weight:900;
+
+    margin:35px 0;
+
+    text-transform:uppercase;
+}
+
 .level{
-    font-size:32px;
-    color:green;
-    margin:20px 0;
+    color:#0b1c2c;
+
+    font-size:38px;
+
+    font-weight:bold;
 }
 
 .description{
@@ -111,4 +144,42 @@ body{
 
 .download-btn:hover{
     background:#157347;
+}
+
+.certificate::before{
+    content:"";
+
+    position:absolute;
+
+    top:-120px;
+    left:-120px;
+
+    width:350px;
+    height:350px;
+
+    border-radius:50%;
+
+    background:rgba(212,175,55,.12);
+}
+
+.certificate::after{
+    content:"";
+
+    position:absolute;
+
+    bottom:-120px;
+    right:-120px;
+
+    width:350px;
+    height:350px;
+
+    border-radius:50%;
+
+    background:rgba(212,175,55,.12);
+}
+
+.cert-logo{
+    width:140px;
+    display:block;
+    margin:0 auto 20px auto;
 }

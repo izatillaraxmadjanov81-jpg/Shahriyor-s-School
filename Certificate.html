@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Certificate</title>
+
+<link rel="stylesheet" href="certificate.css">
+</head>
+
+<body>
+
+<div class="form-box">
+
+<h2>Certificate Generator</h2>
+
+<input
+id="studentName"
+type="text"
+placeholder="Enter Full Name">
+
+<button onclick="createCertificate()">
+Generate Certificate
+</button>
+
+</div>
+
+<div
+id="certificateArea"
+class="hidden">
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<script src="certificate.js"></script>
+
+</body>
+</html>

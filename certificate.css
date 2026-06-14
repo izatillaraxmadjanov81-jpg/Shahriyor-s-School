@@ -54,8 +54,8 @@ body{
 }
 
 .certificate{
-    width:1200px;
-    height:850px;
+    width:1400px;
+    min-height:900px;
 
     max-width:100%;
 
@@ -63,7 +63,7 @@ body{
 
     border:18px solid #d4af37;
 
-    padding:70px;
+    padding:50px 70px;
 
     box-sizing:border-box;
 
@@ -71,7 +71,7 @@ body{
 
     position:relative;
 
-    overflow:hidden;
+    overflow:visible;
 
     margin:auto;
 
@@ -187,10 +187,10 @@ text-transform:uppercase;
 }
 
 .main-text{
-font-size:18px;
-line-height:1.8;
-max-width:900px;
-margin:15px auto;
+font-size:16px;
+line-height:1.6;
+max-width:950px;
+margin:10px auto;
 color:#333;
 }
 
@@ -203,8 +203,9 @@ color:#0b1c2c;
 .footer-cert{
 display:flex;
 justify-content:space-between;
-margin-top:50px;
-font-size:18px;
+margin-top:30px;
+padding-bottom:50px;
+font-size:20px;
 text-align:center;
 }
 

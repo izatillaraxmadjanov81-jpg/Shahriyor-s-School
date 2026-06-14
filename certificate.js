@@ -34,100 +34,69 @@ function createCertificate() {
 
 <div id="certificate" class="certificate">
 
-    <img src="favicon.png" class="cert-logo">
+<h1>CERTIFICATE</h1>
 
-<img src="favicon.png" class="cert-logo">
+<h3 class="school-name">
+Shahriyor's School Assessment
+</h3>
 
-    <h1>CERTIFICATE</h1>
+<h2 class="congrats">
+Congratulations!
+</h2>
 
-    <h3 class="school-name">
-        Shahriyor's School Assessment
-    </h3>
+<p>This Certificate is proudly presented to</p>
 
-    <h2 class="congrats">
-        Congratulations!
-    </h2>
+<h2 class="student-name">
+${name.toUpperCase()}
+</h2>
 
-    <p>
-        This Certificate is proudly presented to
-    </p>
+<p class="main-text">
+for achieving <strong>${level}</strong> Level Proficiency in English and successfully passing the Shahriyor's School English Language Assessment.
+</p>
 
-    <div class="student-name">
-        ${name.toUpperCase()}
-    </div>
+<p class="main-text">
+This achievement reflects remarkable dedication, perseverance, and commitment to learning the English language. Your hard work and determination have enabled you to reach an important milestone in your educational journey.
+</p>
 
-    <p class="description">
+<p class="main-text">
+We proudly recognize your accomplishment and encourage you to continue striving for excellence, embracing new opportunities, and pursuing even greater success in the future.
+</p>
 
-        for achieving
-        <strong>${level} Level Proficiency in English</strong>
-        and successfully passing the
-        <strong>
-        Shahriyor's School English Language Assessment
-        </strong>.
+<h3 class="honor">
+With Honor and Recognition
+</h3>
 
-        <br><br>
+<div class="footer-cert">
 
-        This achievement reflects remarkable dedication,
-        perseverance, and commitment to learning the
-        English language. Your hard work and determination
-        have enabled you to reach an important milestone
-        in your educational journey.
+<div>
+<b>Awarded by:</b><br>
+Shahriyor's School
+</div>
 
-        <br><br>
+<div>
+<b>Date:</b><br>
+${new Date().toLocaleDateString()}
+</div>
 
-        We proudly recognize your accomplishment and
-        encourage you to continue striving for excellence,
-        embracing new opportunities, and pursuing even
-        greater success in the future.
+<div>
+<b>Authorized Signature:</b><br>
+____________
+</div>
 
-        <br><br>
-
-        <strong>
-        Test Score: ${score}%
-        </strong>
-
-    </p>
-
-    <h3>
-        With Honor and Recognition
-    </h3>
-
-    <br>
-
-    <div class="bottom">
-
-        <div>
-            <strong>Awarded by:</strong>
-            <br>
-            Shahriyor's School
-        </div>
-
-        <div>
-            <strong>Date:</strong>
-            <br>
-            ${new Date().toLocaleDateString()}
-        </div>
-
-        <div>
-            <strong>Authorized Signature:</strong>
-            <br>
-            ___________________
-        </div>
-
-    </div>
+</div>
 
 </div>
 
 <button
 class="download-btn"
 onclick="downloadCertificate()">
-
 Download Certificate
-
 </button>
 
 `;
+
 }
+
 function downloadCertificate() {
 
     const certificate =

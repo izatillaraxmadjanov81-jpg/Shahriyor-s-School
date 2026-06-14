@@ -178,8 +178,41 @@ body{
     background:rgba(212,175,55,.12);
 }
 
-.cert-logo{
-    width:140px;
-    display:block;
-    margin:0 auto 20px auto;
+.student-name{
+font-size:42px;
+color:#d4af37;
+font-weight:900;
+margin:25px 0;
+text-transform:uppercase;
+}
+
+.main-text{
+font-size:18px;
+line-height:1.8;
+max-width:900px;
+margin:15px auto;
+color:#333;
+}
+
+.honor{
+margin-top:30px;
+font-size:28px;
+color:#0b1c2c;
+}
+
+.footer-cert{
+display:flex;
+justify-content:space-between;
+margin-top:50px;
+font-size:18px;
+text-align:center;
+}
+
+.download-btn{
+margin-top:20px;
+padding:12px 24px;
+font-size:18px;
+border:none;
+border-radius:8px;
+cursor:pointer;
 }

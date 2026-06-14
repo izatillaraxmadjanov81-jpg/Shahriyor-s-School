@@ -62,6 +62,12 @@ This achievement reflects remarkable dedication, perseverance, and commitment to
 We proudly recognize your accomplishment and encourage you to continue striving for excellence, embracing new opportunities, and pursuing even greater success in the future.
 </p>
 
+<p class="main-text">
+<strong>
+Test Result: ${score}% (${correct} Correct / ${wrong} Incorrect)
+</strong>
+</p>
+
 <h3 class="honor">
 With Honor and Recognition
 </h3>

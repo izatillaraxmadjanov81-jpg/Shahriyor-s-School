@@ -25,6 +25,47 @@ function createCertificate() {
     const total =
         localStorage.getItem("certificateTotal") || "90";
 
+        let recommendedCourse = "";
+let coursePrice = "";
+
+switch(level){
+
+case "A1":
+recommendedCourse = "Beginner";
+coursePrice = "300 ming som";
+break;
+
+case "A2":
+recommendedCourse = "Elementary";
+coursePrice = "300 ming som";
+break;
+
+case "B1":
+recommendedCourse = "Pre-Intermediate";
+coursePrice = "350 ming som";
+break;
+
+case "B2":
+recommendedCourse = "Intermediate";
+coursePrice = "350 ming som";
+break;
+
+case "C1":
+recommendedCourse = "Upper-Intermediate";
+coursePrice = "350 ming som";
+break;
+
+case "C2":
+recommendedCourse = "IELTS";
+coursePrice = "500 ming som";
+break;
+
+default:
+recommendedCourse = "Beginner";
+coursePrice = "300 ming som";
+
+}
+
     const certificateArea =
         document.getElementById("certificateArea");
 
@@ -99,6 +140,32 @@ onclick="downloadCertificate()">
 Download Certificate
 </button>
 
+<div class="course-recommendation">
+
+<h2>
+🎯 Recommended Course
+</h2>
+
+<p>
+According to your test result,
+we recommend our
+
+<b>${recommendedCourse}</b>
+
+course.
+</p>
+
+<button
+class="enroll-btn"
+onclick="enrollCourse(
+'${recommendedCourse}',
+'${coursePrice}'
+)">
+Enroll in ${recommendedCourse}
+</button>
+
+</div>
+
 `;
 
 }
@@ -124,3 +191,49 @@ function downloadCertificate() {
     });
 
 }
+
+function enrollCourse(course, price){
+
+localStorage.setItem(
+"autoCourse",
+course
+);
+
+localStorage.setItem(
+"autoPrice",
+price
+);
+
+window.location.href =
+"index.html";
+
+}
+
+window.addEventListener("load", ()=>{
+
+const course =
+localStorage.getItem("autoCourse");
+
+const price =
+localStorage.getItem("autoPrice");
+
+if(!course) return;
+
+goSection("courses");
+
+showEnglish();
+
+setTimeout(()=>{
+
+openModal(
+course,
+"Shahriyor Ruzimatov tomonidan olib boriladi",
+price
+);
+
+localStorage.removeItem("autoCourse");
+localStorage.removeItem("autoPrice");
+
+},500);
+
+});

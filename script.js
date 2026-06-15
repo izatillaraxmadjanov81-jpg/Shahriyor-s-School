@@ -8508,7 +8508,7 @@ alert(
 
 "\n\nLevel: " + level
 
-);
+);''
 
 }
 

@@ -2,6 +2,7 @@ let selectedCourse = "";
 let selectedTeacher = "";
 // ===== SECTION ALMASHTIRISH =====
 function goSection(id){
+
   closeModal();
 
   document.querySelectorAll("section").forEach(section=>{
@@ -10,27 +11,36 @@ function goSection(id){
 
   document.getElementById(id).classList.add("active");
 
+
+  /* HERO boshqaruvi */
+  const hero = document.querySelector(".hero");
+
+  if(id === "home"){
+    hero.style.display = "flex";
+  }else{
+    hero.style.display = "none";
+  }
+
+
   document.querySelector("nav").classList.remove("show-menu");
 
   document.querySelectorAll("nav button").forEach(btn=>{
     btn.classList.remove("active-nav");
   });
 
-if(id === "home") document.querySelectorAll("nav button")[0].classList.add("active-nav");
-if(id === "courses") document.querySelectorAll("nav button")[1].classList.add("active-nav");
-if(id === "teachers") document.querySelectorAll("nav button")[2].classList.add("active-nav");
-if(id === "schedule") document.querySelectorAll("nav button")[3].classList.add("active-nav");
-if(id === "results") document.querySelectorAll("nav button")[4].classList.add("active-nav");
-if(id === "facts") document.querySelectorAll("nav button")[5].classList.add("active-nav");
-if(id === "quiz") document.querySelectorAll("nav button")[6].classList.add("active-nav");
-if(id === "certificate") document.querySelectorAll("nav button")[7].classList.add("active-nav");
-if(id === "games") document.querySelectorAll("nav button")[8].classList.add("active-nav");
-if(id === "videos") document.querySelectorAll("nav button")[9].classList.add("active-nav");
-if(id === "contact") document.querySelectorAll("nav button")[10].classList.add("active-nav");
-    document.getElementById(id).scrollIntoView({
-      behavior:"smooth"
-    });
-  }
+  if(id === "home") document.querySelectorAll("nav button")[0].classList.add("active-nav");
+  if(id === "courses") document.querySelectorAll("nav button")[1].classList.add("active-nav");
+  if(id === "teachers") document.querySelectorAll("nav button")[2].classList.add("active-nav");
+  if(id === "schedule") document.querySelectorAll("nav button")[3].classList.add("active-nav");
+  if(id === "results") document.querySelectorAll("nav button")[4].classList.add("active-nav");
+  if(id === "facts") document.querySelectorAll("nav button")[5].classList.add("active-nav");
+  if(id === "quiz") document.querySelectorAll("nav button")[6].classList.add("active-nav");
+  if(id === "certificate") document.querySelectorAll("nav button")[7].classList.add("active-nav");
+  if(id === "games") document.querySelectorAll("nav button")[8].classList.add("active-nav");
+  if(id === "videos") document.querySelectorAll("nav button")[9].classList.add("active-nav");
+  if(id === "contact") document.querySelectorAll("nav button")[10].classList.add("active-nav");
+
+}
 
 // ===== MOBILE MENU =====
 function toggleMenu(){
@@ -8518,3 +8528,7 @@ window.location.href =
 "certificate.html";
 
 }
+
+window.onload = function(){
+  goSection("home");
+};

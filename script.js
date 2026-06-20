@@ -8518,7 +8518,7 @@ alert(
 
 "\n\nLevel: " + level
 
-);''
+);
 
 }
 
@@ -8531,4 +8531,4 @@ window.location.href =
 
 window.onload = function(){
   goSection("home");
-};
+};  
